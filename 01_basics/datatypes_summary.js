@@ -31,3 +31,31 @@ let obj={
 const a =function (){
     console.log("helloo");
 };
+
+
+
+
+// stack(primitive)  ,Heap(non-primitive)
+let name123="gagan";
+
+let anothername=name123;
+anothername="kumar";
+
+console.log(name123);
+console.log(anothername);
+
+
+
+let oneone={
+    name:"gagan",
+    email:"gaga@gmail.com",
+    upi:"gaga@ybl",
+};
+
+let twotwo=oneone;
+
+twotwo.name="kumar"
+
+
+console.log(twotwo.name);
+console.log(oneone.name);
